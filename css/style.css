@@ -1,0 +1,287 @@
+p {
+    font-size: 18px;
+}
+
+footer {
+    padding: 2em;
+    text-align: center;
+}
+
+header {
+    padding: 29px;
+    margin: 0px;
+    color: grey;
+    background-color: white;
+    text-align: right;
+    font-family: sans-serif;
+}
+
+a {
+    color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+h2 {
+    color: #4aaaa5;
+    text-align: center;
+}
+
+#maincontent {
+    float: left;
+    width: 40%;
+    height: 40%px;
+    padding: 20px;
+    margin: 20px 20px 20px 70px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+form {
+    font-family: sans-serif;
+    color: grey;
+    line-height: 30px;
+}
+
+input {
+    font-family: sans-serif;
+    color: lightgrey;
+    width: 100%;
+    line-height: 200%
+}
+
+footer {
+    position: relative;
+    padding: 30px;
+    margin: 0px;
+    color: white;
+    background: grey;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.profilepic {
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 125px;
+    height: 200px;
+}
+
+.formname {
+    font-family: sans-serif;
+    color: grey;
+    margin: 10px 0px 10px 0px;
+}
+
+.divline {
+    margin: 12px 0px 0px 0px;
+    width: 95%;
+    height: 2px;
+    background-color: lightgrey;
+}
+
+.divlinefooter {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 4px;
+    background-color: #4aaaa5;
+}
+
+.profilepics {
+    position: relative;
+    float: left;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+
+}
+
+.banners {
+    position: absolute;
+    bottom: 0;
+    width: 160px;
+    height: 20px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+}
+
+#myname {
+    position: absolute;
+    padding: 20px;
+    margin: 0px 0px 0px 70px;
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+}
+
+.connectwithme {
+    float: left;
+    width: 30%;
+    height: 150px;
+    padding: 20px;
+    margin: 20px 20px 20px 70px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+#full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: #eee;
+}
+
+#project1 {
+    position: relative;
+    float: left;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+
+}
+
+#project2 {
+    position: relative;
+    float: left;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+
+}
+
+#project3 {
+    position: relative;
+    float: left;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+
+}
+
+#project4 {
+    position: relative;
+    float: left;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+
+}
+
+#messagetext {
+    line-height: 250px;
+}
+
+#submitbutton {
+    float: left;
+    width: 35%;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#wrapper {
+    /* Box-model */
+    width: 1024px;
+
+}
+
+#main-content,
+#sidebar {
+    /* Box-model */
+    width: 500px;
+    padding: 30px;
+}
+
+#main-content {
+    /* Positioning */
+    float: left;
+
+}
+
+#sidebar {
+    /* Positioning */
+    float: right;
+
+}
+
+@media screen and (max-width: 980px) {
+
+    #wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 320px and below */
+@media screen and (max-width: 768px) {
+
+    #wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+/* Width at 168px and below */
+@media screen and (max-width: 640px) {
+
+    #wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+}

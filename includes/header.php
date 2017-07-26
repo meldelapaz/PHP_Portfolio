@@ -1,5 +1,5 @@
 <header>
-    <a href="index.html">About</a>	|
-    <a href="portfolio.html">Portfolio</a>	|
-    <a href="contact.html">Contact</a>
+    <a href="/index.php">About</a>	|
+    <a href="/projects.php">Portfolio</a>	|
+    <a href="/contact.php">Contact</a>
 </header>
